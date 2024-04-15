@@ -1,0 +1,22 @@
+server:
+  port: 8787
+
+spring.datasource:
+  url: "jdbc:postgresql://localhost:5432/pm-mnp"
+  username: "pm-mnp"
+  password: "pm-mnp"
+  hikari:
+    connection-test-query: "SELECT 1"
+    connection-timeout: 60000
+    driver-class-name: "org.postgresql.Driver"
+    idle-timeout: 600000
+    maximum-pool-size: 120
+    minimum-idle: 15
+    schema: "public"
+
+application:
+  filesDirectory: "C:\\Users\\nikolay.shatskikh\\Desktop\\Диплом\\ВКР\\ПМ ПНЦК\\Build\\files"
+  countryFilename: "Countries.csv"
+  operatorFilename: "Operators.csv"
+  regionFilename: "Regions.csv"
+  prefixFilename: "Prefixes.csv"

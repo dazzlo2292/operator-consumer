@@ -1,0 +1,3 @@
+2023-12-25 13:42:24.448 INFO [main] [r.a.Application] Starting Application using Java 17.0.1 with PID 10764 (C:\Users\nikolay.shatskikh\IdeaProjects\operator-consumer\starter\target\classes started by nikolay.shatskikh in C:\Users\nikolay.shatskikh\IdeaProjects\operator-consumer)
+2023-12-25 13:42:24.486 INFO [main] [r.a.Application] No active profile set, falling back to 1 default profile: "default"
+2023-12-25 13:42:32.668 INFO [main] [r.a.Application] Started Application in 9.858 seconds (process running for 13.49)
